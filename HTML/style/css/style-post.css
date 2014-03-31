@@ -1,0 +1,90 @@
+﻿@charset"utf-8";
+
+@import url(style.css);
+.top_bar{ z-index:5; }
+	.top_line{ background:#ad5930; margin:24px auto 0; width:1035px; height:1px; font-size:0; }
+
+.container{ float:left; height:auto; }
+
+.notice{ padding-bottom:8px; }
+
+.topic{ margin-left:19px; border:0; }
+.banner_ad{ background:none; padding-left:1px; }
+
+.post_main{ clear:left; background:#fff; position:relative; }
+	.post_main h2{ padding:9px 42px; height:17px; color:#33444b; text-shadow:1px 1px #e7ffff; cursor:default; }
+	.post_main h2 a{ color:#33444b; }
+	.post_main h2 a:hover{ color:#f00; text-shadow:1px 1px #fee; }
+
+.post_left{ float:left; width:788px; }
+	#post_top_shadow{ background:url(../img/post-bg.gif) no-repeat; height:3px; font-size:0; }
+	.post_tag_bg{ background:url(../img/post-bg.gif) no-repeat 0 -3px #fff; height:27px; padding:7px 70px 10px; font-weight:bold; color:#fff; }
+		.post_tag_bg a{ color:#fff; }
+
+		.post_info,
+		.post_intro,
+		.statis,
+		.relate,
+		.help{ overflow:hidden; margin-left:22px; border-left:1px solid #ddd; border-right:1px solid #ddd; padding:26px 27px 42px; width:703px; }
+		.post_info{ height:160px; }
+		.post_info h5{ margin:0 0 0 5px; line-height:2em; font-weight:bold; }
+		.post_info_img{ float:left; margin:10px 15px 0 0; border:1px solid #837159; line-height:0; }
+		.post_info_img img{ padding:1px; border:1px solid #f6f4f2; border-top:1px solid #fff; width:160px; height:132px; }
+		.post_info_img:hover{ border:1px solid #000; }
+		.info_word{ float:left; margin-top:5px; width:260px; }
+			.info_word li{ overflow:hidden; padding-top:9px; color:#7f7f7f; border-bottom:1px solid #ebebeb; height:18px; vertical-align:text-bottom; }
+			.info_word img{ vertical-align:middle; height:18px; }
+			.info_word a{ color:#047272; text-decoration:underline; font-weight:bold; }
+			.info_word .boss{ color:#d81f1c; }
+			
+		.post_intro{}
+			.post_intro li{ line-height:2.2em; }
+			.post_intro img{ margin-left:160px; }
+			.post_intro b{ font-weight:bold; }
+			.post_intro p{ text-indent:2em; }
+			
+		.post_about{ margin-left:22px; padding-top:0; width:759px; }
+			.statis,
+			.relate,
+			.help{ margin:0; padding:10px 0px; width:757px; text-indent:2em; line-height:1.6em; }
+			.post_about h4{ background:#f6f6f6; line-height:2.5em; border-right:1px solid #f6f6f6; font-weight:bold; text-indent:2em; }
+			
+			.statis{ line-height:2em; }
+				.down{ font-weight:bold; }
+				.statis a{ color:#1962af; }
+				.statis a:hover,
+				.relate a:hover{ color:#f00; }
+			.relate{ border-top:1px solid #ddd; text-indent:0.7em; cursor:default; }
+			.help{ border-top:1px solid #ddd; border-bottom:1px solid #ddd; }
+			
+.post_right{ float:left; margin-left:8px;  width:239px; }
+	.post_right_div{ background:#fbfbfb; border-left:1px solid #ddd; border-right:1px solid #ddd; width:227px; }
+	#post_right_top{ background:url(../img/post-bg.gif) no-repeat 0 -57px; height:3px; font-size:0; }
+	.post_right h4{ background:url(../img/post_hero_h4.gif) repeat-x; padding:13px 0 0 26px; height:23px; font:bold 12px/1em Nsimsun,simsun,san-serif; }
+	.post_fir_div{}
+		.post_hero_info{ padding-top:8px; }
+			.post_hero_info a{ line-height:0; font-size:0; }
+			.post_hero_info img{ float:left; margin:0 14px 10px 22px; }
+			.post_hero_info p a {font-size:12px; }
+			.post_hero_info li{ padding-left:22px; line-height:1.2em; }
+			.mail_li{ clear:left; }
+		.msg{ margin:8px 38px; }
+			.msg a{ background:#ff8400; color:#fff; height:14px; }
+		.post_fir_div h5{ padding-left:26px; font-weight:bold; }
+		.hero_other{ padding:10px 0 15px 12px; }
+			.hero_other a:hover{ color:#f00; }
+		
+	.post_fir_div h4{ background:url(../img/post-bg.gif) no-repeat -1px -60px; padding-top:10px; }
+	.post_fir_div h4 a{ text-decoration:underline; }
+	.post_last_div{ border-bottom:1px solid #ddd; }
+		.rank_list{ position:static; background:url(../img/style-bg.gif) no-repeat  27px -198px; padding-bottom:15px; }
+		.rank_list li{ overflow:hidden; position:static; padding-left:54px; }
+		.rank_list .first_li{ background:#fff; width:227px; height:118px; }
+		.first_li img{ margin-top:21px; margin-left:25px; }
+		.best_info{ padding-top:28px; width:105px; color:#000; }
+	
+.footer{ position:relative; z-index:-1; padding:0; }
+	#bottom_shadow{ top:-2591px; }
+	#footer_top{ height:38px; background:url(../img/footer_top.gif) no-repeat; }
+	
+.clear{ clear:both; }

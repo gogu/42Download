@@ -1,0 +1,27 @@
+﻿@charset"utf-8";
+
+@import url(style.css);
+
+#bottom_shadow{ background-position:0 -446px; height:2401px; }
+.container{ height:1970px; }
+
+.left_list{ background:url(../img/left_list-bg.gif) no-repeat 174px -3px #fff; float:left; width:185px; }
+	#rank_top_bg{ width:160px; }
+	.navigation{ float:none; }
+		.navigation h2{ width:178px; }
+	.top_list{ clear:left; margin-left:24px; border-left:1px solid #ddd; padding-top:3px; }
+		.top_list ul{ background:url(../img/style-bg.gif) no-repeat 8px -185px; border-right:1px solid #ddd; border-bottom:1px solid #ddd; padding-bottom:6px; width:149px; }
+		.top_list li{ padding-left:35px; line-height:2em; }
+		.top_list h2{ background:url(../img/style-bg.gif) no-repeat -130px -131px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; padding:8px 15px; height:19px; cursor:default; }
+		.top_list a:hover{ color:#f00; }
+		.top_first { background:#fff; height:106px; }
+		.top_first a{ font-size:0; }
+		.top_first img{ margin:11px 2px 0px; border:1px solid #ddd; border-top:0; border-bottom:2px solid #ddd; border-radius:2px; padding:1px 1px 0 1px; }
+		.top_first img:hover{ border-color:#000; }
+.right_list{ position:relative; float:left; width:850px; }
+	.banner_ad{ background:none; position:absolute; left:0; margin-left:-9px; padding-top:0; }
+	.lastest_main{ margin-top:74px; width:840px; }
+		.lastest_main h2{ background:none; text-indent:0; border-bottom:1px solid #f6f6f6; width:100%; height:36px; }
+		.lastest_list{ margin:0; border-top:1px solid #fbfbfb; width:838px; }
+			.file_info{ width:510px; }
+			.hero_info{ padding-left:75px; }
